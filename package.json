@@ -1,0 +1,28 @@
+{
+  "name": "tarea-tests-utils",
+  "version": "1.0.0",
+  "description": "Actividad: pruebas unitarias de utilitarios con Vitest y TypeScript",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "vitest",
+    "typescript",
+    "unit-testing",
+    "bcrypt"
+  ],
+  "author": "Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
